@@ -1,0 +1,25 @@
+New-Alias c clear
+New-Alias l ls
+
+Function gitStatus {git status}
+New-Alias s gitStatus
+
+Function gitDiff {git diff}
+New-Alias d gitDiff
+
+Function gitLog {git log}
+New-Alias log gitLog
+
+Function gitBranch {git branch}
+New-Alias b gitBranch
+
+Function gitFetch {git fetch}
+New-Alias f gitFetch
+
+Function upDir {cd ..}
+New-Alias u upDir
+
+Function goHome {cd ~}
+New-Alias h goHome -Force -Option AllScope
+
+
